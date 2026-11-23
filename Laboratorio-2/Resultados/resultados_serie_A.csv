@@ -1,0 +1,16 @@
+﻿Parametro;Valor;Unidad
+Serie;A;
+Distancia;0.5;m
+CSMA;ON;
+Primera secuencia;398;
+Ultima secuencia;551;
+Paquetes esperados;154;
+Paquetes recibidos;141;
+Paquetes perdidos;13;
+PRR estimado;91.56;%
+RSSI promedio;-55.16;dBm
+RSSI minimo;-78;dBm
+RSSI maximo;-45;dBm
+LQI promedio;97.34;
+LQI minimo;92;
+LQI maximo;102;

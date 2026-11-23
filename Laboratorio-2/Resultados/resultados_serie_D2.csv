@@ -1,0 +1,17 @@
+﻿Parametro;Valor;Unidad
+Distancia;3;m
+Obstaculo;Pared de habitacion;
+CSMA;ON;
+Paquetes recibidos;197;paquetes
+Paquetes esperados;218;paquetes
+Paquetes perdidos estimados;21;paquetes
+Duplicados;0;paquetes
+Primera secuencia;1275;
+Ultima secuencia;1492;
+PRR estimado;90,37;%
+RSSI promedio;-56,94;dBm
+RSSI minimo;-61;dBm
+RSSI maximo;-54;dBm
+LQI promedio;95,70;
+LQI minimo;90;
+LQI maximo;99;

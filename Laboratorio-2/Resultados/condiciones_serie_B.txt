@@ -1,0 +1,39 @@
+LABORATORIO 2 - SERIE B
+Comunicacion punto a punto IEEE 802.15.4
+
+Distancia TX-RX: 3 m
+Condicion: linea de vista
+Canal: 26
+PAN ID: 0x0023
+Nodo transmisor: 00:01
+Nodo receptor: 00:02
+CSMA/CCA: activado
+Potencia TX configurada: 0 dBm
+Intervalo configurado de transmision: 1 segundo
+Sistema operativo: RIOT 2026.04
+Orientacion de antenas: ambas verticales, apuntando hacia arriba
+Alimentacion TX: cargador USB de 5 V
+Alimentacion RX: puerto USB de la notebook
+
+Paquetes recibidos: 153
+Paquetes esperados entre primera y ultima secuencia: 192
+Paquetes perdidos estimados: 39
+Duplicados: 0
+PRR estimado: 79,69 %
+
+RSSI promedio: -41,54 dBm
+RSSI minimo: -43 dBm
+RSSI maximo: -40 dBm
+
+LQI promedio: 87,49
+LQI minimo: 82
+LQI maximo: 90
+
+Anomalias: 39 secuencias no recibidas entre 44 y 235;
+se observaron mensajes de trama descartada.
+Causa de las perdidas no determinada.
+
+Nota: el PRR es una estimacion calculada entre
+la primera y la ultima secuencia recibidas.
+
+Registro original: serie_B_3m_CSMA_ON.log

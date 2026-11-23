@@ -1,0 +1,13 @@
+**/bin/
+**/bin64/
+**/pkg-build/
+*.o
+*.elf
+*.hex
+*.map
+*.pyc
+__pycache__/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,42 @@
+LABORATORIO 3 - COMUNICACION MULTISALTO
+RIOT OS 2026.04 - TelosB
+
+CONFIGURACION
+SENSOR: NODE_ID=1, NEXT_HOP_ID=2, TTL=2
+RELAY: NODE_ID=2, NEXT_HOP_ID=3
+SINK: NODE_ID=3
+CSMA/CCA: OFF
+TX_INTERVAL_MS: 1000
+
+MEDICION CONTROLADA
+Secuencias observadas: 0 a 60
+
+RELAY
+received=58
+forwarded=58
+duplicates=0
+ack_frames=56
+gaps=3
+out_of_order=0
+invalid=3
+ttl_drops=0
+route_drops=0
+send_errors=0
+PRR_primer_salto=95.0%
+
+SINK
+unique=56
+duplicates=0
+ack_frames=55
+gaps=5
+out_of_order=0
+invalid=2
+PRR_estimado=91.8%
+
+ANALISIS
+PRR primer salto: 58/61 = 95.08%
+PRR extremo a extremo: 56/61 = 91.80%
+Relacion SINK/RELAY: 56/58 = 96.55%
+
+El SINK recibio paquetes SRC=1 DST=3 HOPS=1 TTL=1.
+Se verifico el reenvio a traves del RELAY.

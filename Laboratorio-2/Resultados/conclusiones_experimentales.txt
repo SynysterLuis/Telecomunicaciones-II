@@ -1,0 +1,80 @@
+LABORATORIO 2 - COMUNICACION PUNTO A PUNTO IEEE 802.15.4
+CONCLUSIONES EXPERIMENTALES
+
+1. FUNCIONAMIENTO DE LA COMUNICACION
+
+Se implemento y verifico una comunicacion punto a punto
+IEEE 802.15.4 utilizando dos dispositivos TelosB con RIOT OS
+2026.04 y transceptores CC2420.
+
+El receptor permitio registrar la secuencia de paquetes,
+RSSI y LQI, mientras que el transmisor funciono de manera
+autonoma mediante alimentacion USB.
+
+2. EFECTO DE LA DISTANCIA
+
+A 0,5 m con CSMA activado se obtuvo un PRR estimado de
+91,56 %, mientras que a 3 m fue de 79,69 %.
+
+El RSSI promedio fue de -55,16 dBm a 0,5 m y de -41,54 dBm
+a 3 m. Esta diferencia muestra que la potencia recibida
+no depende exclusivamente de la distancia, sino tambien
+de las condiciones de propagacion y del entorno.
+
+3. COMPARACION CSMA ON Y OFF SIN OBSTACULO
+
+A 3 m, sin obstaculo, se obtuvo un PRR estimado de
+79,69 % con CSMA ON y de 84,97 % con CSMA OFF.
+
+Los valores medios de RSSI y LQI fueron muy similares.
+En esta prueba individual, desactivar CSMA produjo un
+PRR mayor, pero no es suficiente para concluir que esa
+configuracion sea generalmente superior.
+
+4. EFECTO DE LA PARED
+
+Con CSMA OFF, el RSSI promedio paso de -41,69 dBm
+sin obstaculo a -54,67 dBm con una pared intermedia.
+
+La diferencia fue de -12,98 dB, compatible con una
+atenuacion adicional debida a la propagacion con obstaculo.
+
+El PRR estimado cambio de 84,97 % a 84,09 %.
+
+5. COMPARACION CSMA ON Y OFF CON OBSTACULO
+
+Con la pared entre los dispositivos, el PRR estimado
+fue de 84,09 % con CSMA OFF y de 90,37 % con CSMA ON.
+
+En esta medicion, CSMA ON presento un PRR superior
+en 6,28 puntos porcentuales.
+
+No obstante, las pruebas no permiten atribuir
+exclusivamente a CSMA las diferencias observadas.
+
+6. LIMITACIONES EXPERIMENTALES
+
+El PRR se estimo a partir de las secuencias comprendidas
+entre el primer y el ultimo paquete recibido.
+
+No se sincronizo el inicio y fin de las transmisiones
+con la captura del receptor.
+
+Se realizo una medicion por condicion experimental.
+Por lo tanto, los resultados permiten comparar las
+ejecuciones realizadas, pero no establecer conclusiones
+estadisticas generales sobre el comportamiento del enlace.
+
+7. CONCLUSION GENERAL
+
+Se verifico experimentalmente el funcionamiento de
+un enlace IEEE 802.15.4 entre dos dispositivos TelosB.
+
+Las mediciones mostraron variaciones en RSSI, LQI
+y PRR asociadas a las diferentes condiciones de
+distancia, presencia de obstaculos y configuracion CSMA.
+
+El laboratorio permitio comprobar que la calidad
+de un enlace inalambrico debe evaluarse mediante
+varias metricas, ya que un RSSI mayor no garantiza
+necesariamente un PRR superior.

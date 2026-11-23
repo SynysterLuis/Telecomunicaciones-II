@@ -1,0 +1,31 @@
+LABORATORIO 2 - SERIE A
+Comunicacion punto a punto IEEE 802.15.4
+
+Distancia TX-RX: 0,5 m
+Condicion: linea de vista
+Canal: 26
+PAN ID: 0x0023
+Nodo transmisor: 00:01
+Nodo receptor: 00:02
+CSMA/CCA: activado
+Intervalo configurado de transmision: 1 segundo
+Sistema operativo: RIOT 2026.04
+
+Paquetes esperados entre primera y ultima secuencia: 154
+Paquetes recibidos: 141
+Paquetes perdidos estimados: 13
+PRR estimado: 91,56 %
+
+RSSI promedio: -55,16 dBm
+RSSI minimo: -78 dBm
+RSSI maximo: -45 dBm
+
+LQI promedio: 97,34
+LQI minimo: 92
+LQI maximo: 102
+
+Orientacion de antenas: ambas verticales, apuntando hacia arriba
+Potencia TX configurada: 0 dBm (valor predeterminado de RIOT 2026.04)
+Anomalias: 13 secuencias no recibidas entre 398 y 551; sin duplicados detectados. Causa no determinada.
+
+Registro original: serie_A_05m_CSMA_ON.log

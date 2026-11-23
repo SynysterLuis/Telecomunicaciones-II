@@ -1,0 +1,34 @@
+LABORATORIO 2 - CONFIGURACION Y VERSIONES
+========================================
+
+Sistema operativo de desarrollo: Ubuntu sobre WSL
+RIOT OS: 2026.04
+Plataforma: TelosB
+Microcontrolador: MSP430
+Transceptor: CC2420
+
+IDENTIFICACION DE DISPOSITIVOS
+TX: MFU7JHE2 - Nodo 1
+RX: MFUD5R4G - Nodo 2
+
+CONFIGURACION DE RADIO
+Canal IEEE 802.15.4: 26
+PAN ID: 0x0023
+Potencia TX configurada: 0 dBm
+Intervalo TX configurado: 1 segundo
+CSMA ON: compilacion con CSMA=1
+CSMA OFF: compilacion con CSMA=0
+
+VERSIONES DE HERRAMIENTAS
+
+GCC MSP430:
+msp430-elf-gcc (Mitto Systems Limited - msp430-gcc 9.3.1.11) 9.3.1
+
+GNU Make:
+GNU Make 4.4.1
+
+Python:
+Python 3.14.4
+
+VERSION DE RIOT SEGUN GIT
+2026.04

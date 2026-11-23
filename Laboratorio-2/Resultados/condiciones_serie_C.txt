@@ -1,0 +1,39 @@
+LABORATORIO 2 - SERIE C
+Comunicacion punto a punto IEEE 802.15.4
+
+Distancia TX-RX: 3 m
+Condicion: linea de vista
+Canal: 26
+PAN ID: 0x0023
+Nodo transmisor: 00:01
+Nodo receptor: 00:02
+CSMA/CCA: desactivado (OFF)
+Potencia TX configurada: 0 dBm
+Intervalo configurado de transmision: 1 segundo
+Sistema operativo: RIOT 2026.04
+Orientacion de antenas: ambas verticales, apuntando hacia arriba
+Alimentacion TX: cargador USB de 5 V
+Alimentacion RX: puerto USB de la notebook
+
+Paquetes recibidos: 147
+Paquetes esperados entre primera y ultima secuencia: 173
+Paquetes perdidos estimados: 26
+Duplicados: 0
+PRR estimado: 84,97 %
+
+RSSI promedio: -41,69 dBm
+RSSI minimo: -50 dBm
+RSSI maximo: -37 dBm
+
+LQI promedio: 87,39
+LQI minimo: 82
+LQI maximo: 90
+
+Anomalias: 26 secuencias no recibidas entre 42 y 214.
+Se observaron caracteres seriales ilegibles al iniciar pyterm.
+No se determino la causa de las perdidas.
+
+Nota: el PRR se estimo entre la primera y ultima
+secuencia observadas, sin sincronizacion TX-RX.
+
+Registro original: serie_C_3m_CSMA_OFF.log

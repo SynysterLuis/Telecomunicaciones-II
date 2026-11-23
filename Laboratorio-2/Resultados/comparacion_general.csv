@@ -1,0 +1,6 @@
+﻿Serie;Condicion;Recibidos;Esperados;Perdidos estimados;PRR estimado (%);RSSI promedio (dBm);LQI promedio
+A;0,5 m - CSMA ON;141;154;13;91,56;-55,16;97,34
+B;3 m - CSMA ON;153;192;39;79,69;-41,54;87,49
+C;3 m - CSMA OFF;147;173;26;84,97;-41,69;87,39
+D1;3 m - Pared - CSMA OFF;148;176;28;84,09;-54,67;95,04
+D2;3 m - Pared - CSMA ON;197;218;21;90,37;-56,94;95,7

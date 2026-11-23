@@ -1,0 +1,47 @@
+LABORATORIO 3 - COMUNICACION MULTISALTO
+RIOT OS 2026.04 - TelosB
+
+CONFIGURACION
+SENSOR: NODE_ID=1, NEXT_HOP_ID=2, TTL=2
+RELAY: NODE_ID=2, NEXT_HOP_ID=3
+SINK: NODE_ID=3
+CSMA/CCA: ON
+TX_INTERVAL_MS: 1000
+
+MEDICION
+Ultima secuencia observada: 61
+
+RELAY
+received=61
+forwarded=61
+duplicates=0
+ack_frames=56
+gaps=1
+out_of_order=0
+invalid=1
+ttl_drops=0
+route_drops=0
+send_errors=0
+PRR_primer_salto=98.3%
+
+SINK
+unique=56
+duplicates=0
+ack_frames=58
+gaps=5
+out_of_order=0
+invalid=2
+PRR_estimado=91.8%
+
+COMPARACION CON CSMA OFF
+PRR primer salto OFF: 95.0%
+PRR primer salto ON: 98.3%
+
+PRR extremo a extremo OFF: 91.8%
+PRR extremo a extremo ON: 91.8%
+
+OBSERVACIONES
+Con CCA activada mejoro el PRR estimado del primer salto.
+El PRR estimado extremo a extremo permanecio igual.
+Las ventanas no tienen exactamente el mismo conjunto de
+secuencias y no permiten atribuir causalidad a CCA.
